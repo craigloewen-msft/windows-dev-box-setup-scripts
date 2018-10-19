@@ -1,5 +1,5 @@
 #--- VCRedist2010 ---
-choco install vcredist2010 
+choco install -y vcredist2010 
 
 #--- Poshgit ---
-choco install poshgit
+choco install -y poshgit

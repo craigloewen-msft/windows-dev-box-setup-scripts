@@ -24,7 +24,7 @@ function executeScript {
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings_Craig.ps1";
 executeScript "SystemConfiguration.ps1";
-executeScript "CommonDevTools.ps1";
+executeScript "CommonDevTools_Craig.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "WSL.ps1";
 executeScript "Browsers_Craig.ps1";
