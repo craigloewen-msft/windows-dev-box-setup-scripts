@@ -22,13 +22,13 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
-executeScript "FileExplorerSettings_Craig.ps1";
+executeScript "FileExplorerSettingsCraig.ps1";
 executeScript "SystemConfiguration.ps1";
-executeScript "CommonDevTools_Craig.ps1";
+executeScript "CommonDevToolsCraig.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "WSL.ps1";
-executeScript "Browsers_Craig.ps1";
-executeScript "Extras_Craig.ps1";
+executeScript "BrowsersCraig.ps1";
+executeScript "ExtrasCraig.ps1";
 
 Enable-UAC
 Enable-MicrosoftUpdate
