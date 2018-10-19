@@ -1,3 +1,6 @@
+﻿# Welcome Craig! (Or others wishing to use Craig's setup)
+
+<a href='https://raw.githubusercontent.com/mscraigloewen/windows-dev-box-setup-scripts/craigsetup/craigsetup.ps1'>Use this link to setup your computer.</a>
 
 # About this project
 The goal of this project is to provide a central place to share ideas for streamlining dev box setup and provide sample scripts for common dev scenarios. It's likely you will want to take the scripts here and modify them to fit your particular needs. When you make those changes if you think others would benefit please consider submitting a PR. Before you contribute please see the [Contribution Guidelines](CONTRIBUTING.md).
