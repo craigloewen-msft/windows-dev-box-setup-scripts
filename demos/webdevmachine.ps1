@@ -24,13 +24,13 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
-executeScript "FileExplorerSettings.ps1";
-executeScript "SystemConfiguration.ps1";
-executeScript "RemoveDefaultApps.ps1";
-executeScript "CommonDevTools.ps1";
-executeScript "Browsers.ps1";
+#executeScript "FileExplorerSettings.ps1";
+#executeScript "SystemConfiguration.ps1";
+#executeScript "RemoveDefaultApps.ps1";
+#executeScript "CommonDevTools.ps1";
+#executeScript "Browsers.ps1";
 
-executeScript "HyperV.ps1";
+#executeScript "HyperV.ps1";
 RefreshEnv
 # --- Executing WSL Script ---
 # executeScript "WSL.ps1";
@@ -51,14 +51,14 @@ Ubuntu1804 run apt upgrade -y
 
 # --- End of WSL Script ---
 RefreshEnv
-executeScript "Docker.ps1";
+#executeScript "Docker.ps1";
 
-choco install -y powershell-core
-choco install -y azure-cli
-Install-Module -Force Az
-Install-Module -Force posh-git
-choco install -y microsoftazurestorageexplorer
-choco install -y terraform
+#choco install -y powershell-core
+#choco install -y azure-cli
+#Install-Module -Force Az
+#Install-Module -Force posh-git
+#choco install -y microsoftazurestorageexplorer
+#choco install -y terraform
 
 # Get NodeJS
 choco install -y nodejs.install
